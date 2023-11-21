@@ -7,8 +7,8 @@ function range(a, b, s = 1) {
 
   for (
     let i = n1; 
-    n1 <= n2 ? i <= 2 : i >= 2; 
-    i += s
+    n1 <= n2 ? i <= n2 : i >= n2; 
+    i += step
   ) {
     nums.push(i);
   }
